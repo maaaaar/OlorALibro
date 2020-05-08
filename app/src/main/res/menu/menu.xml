@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/MenuOlorAlibro"
+        android:icon="@mipmap/home2"
+        android:title="home"
+        app:showAsAction="ifRoom" />
+
+
+
+
+    <item
+        android:id="@+id/Libreriastoolbar"
+        android:title="Librerías"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ActividadesToolbar"
+        android:title="Actividades"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/RedToolbar"
+        android:title="Datos de Red"
+             app:showAsAction="never" />
+    <item
+        android:id="@+id/AtencionToolbar"
+        android:title="Atención al Cliente"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/UsuarioToolbar"
+        android:title="Login"
+        app:showAsAction="never" />
+</menu>

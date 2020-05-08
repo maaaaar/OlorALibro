@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arant.olor_a_libro">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/OlorALibro"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".Activities.olorAlibro"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.Librerias"
+            android:label="Librerias"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.Login"
+            android:label="Login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.PerfilUsuario"
+            android:label="Perfil de Usuario"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.AtencionAlCliente"
+            android:label="Atención Al Cliente"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.PrincipalLibrerias"
+            android:label="Principal Librerias"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.RegistrarUsuario"
+            android:label="Registrar Usuario"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.DatosDeRed"
+            android:label="Datos de Red"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.olorAlibroRegistrado"
+            android:label="Menu Usuario"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.MainActividades"
+            android:label="Actividades"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.PrincipalActivitats"
+            android:label="Principal Actividades"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.Main_Activity_Actividades_Usuario"
+            android:label="Mis Actividades"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".Activities.Ranking"
+            android:label="Ranking"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+    </application>
+</manifest>

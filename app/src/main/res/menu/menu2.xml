@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.olorAlibro"
+    android:text="OLOR A LIBRO">
+
+
+
+    <item
+        android:id="@+id/MenuOlorAlibro"
+        android:icon="@mipmap/home2"
+        android:title="menu"
+        app:showAsAction="ifRoom" />
+
+
+    <!-- MENU -->
+    <item
+        android:id="@+id/Miperfiltoolbar"
+        android:title="Perfil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Libreriastoolbar"
+        android:title="Librerías"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ActividadesToolbar"
+        android:title="Actividades"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/RedToolbar"
+        android:title="Datos de Red"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/AtencionToolbar"
+        android:title="Atención al Cliente"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Ranking"
+        android:title="Ranking"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/UsuarioToolbar"
+        android:title="Log-Out"
+        app:showAsAction="never" />
+
+</menu>
